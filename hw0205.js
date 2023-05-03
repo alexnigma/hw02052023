@@ -9,10 +9,10 @@
     (Змінні типу інтеджер містять кількість продуктів в наявності у вигляді вхідних даних)
 */
 
-let hamburger = 5;
+let hamburger = 2;
 let fries = 1;
 
-if (hamburger && fries > 0) {
+if (hamburger > 1 && fries > 0) {
     console.log("Ми поїли")
 } else {
     console.log("Ми йдемо в інше кафе")
@@ -234,3 +234,4 @@ if (meter === 0) {
     console.log(meter + " " + meterEnd[0] + " це " + kMeter + " " + kMeterEnd[1])
 
 };
+
