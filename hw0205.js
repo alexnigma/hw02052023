@@ -12,7 +12,7 @@
 let hamburger = 2;
 let fries = 1;
 
-if (hamburger > 1 && fries > 0) {
+if (hamburger > 2 && fries > 0) {
     console.log("Ми поїли")
 } else {
     console.log("Ми йдемо в інше кафе")
